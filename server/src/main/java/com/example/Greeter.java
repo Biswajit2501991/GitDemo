@@ -15,5 +15,14 @@ public class Greeter {
   //TODO: Add javadoc comment
   public String greet(String someone) {
     return String.format("Hello How are you, %s!", someone);
+    
+    
+  }
+  
+  public void postJira()
+  {
+	  System.out.println("PostJira");
+	  System.out.println("PostJire2");
+	  System.out.println("PostJire3");
   }
 }
